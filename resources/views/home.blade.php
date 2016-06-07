@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-2 col-md-2 sidebar" style="margin-left: 50px;color: pink;">
-                <ul class="nav nav-sidebar" style="background:#FFD0AA;border-radius: 10px;">
+                <ul class="nav nav-sidebar" style="background:#DFF0D8;border-radius: 10px;">
                     <li class="active" style="text-align: center;"><a href="#">个人信息:<span class="sr-only">(current)</span></a></li>
                     <li><a>姓名:{{ $info->name }}</a></li>
                     <li><a>学号:{{ $info->stuID }}</a></li>

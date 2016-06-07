@@ -5,7 +5,7 @@
 
             {{--左侧基本信息栏/start/--}}
             <div class="col-xs-2 col-md-2 sidebar" style="margin-left: 50px;color: pink;">
-                <ul class="nav nav-sidebar" style="background:#FFD0AA;border-radius: 10px;">
+                <ul class="nav nav-sidebar" style="background:#DFF0D8;border-radius: 10px;">
                     <li class="active" style="text-align: center;"><a href="#">个人信息:<span class="sr-only">(current)</span></a></li>
                     <li><a>姓名:{{ $InfoLike['info']->name }}</a></li>
                     <li><a>学号:{{ $InfoLike['info']->stuID }}</a></li>
@@ -23,7 +23,7 @@
             {{--左侧基本信息栏/end/--}}
 
             {{--兴趣爱好栏/start/--}}
-            <div class="panel panel-success col-md-8" style="margin-left: 120px;">
+            <div class="panel panel-success col-md-8" style="float: right;right:100px;padding: 0px;">
                 <div class="panel-heading">
                     @if( \Auth::check() && \Auth::User()->id == $InfoLike['info']->id)
                     <a href="/users/changeLike"><button type="button" class="btn btn-xs btn-warning col-md-2" >修改</button></a>
