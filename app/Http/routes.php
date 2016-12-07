@@ -22,7 +22,7 @@ Route::get('/welcome', function () {
 // Route::get('/user/register','UsersController@register');
 // Route::post('/user/register','UsersController@registerHandle');
 /*
-|--------------------------------------------------------------------------
+|-------------------------------- ------------------------------------------
 | Application Routes
 |--------------------------------------------------------------------------
 |
